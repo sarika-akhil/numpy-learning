@@ -57,3 +57,18 @@
 #print(a) => [1 2 3 4 5 6]
 #print(a.reshape(2,3)) =>[[1 2 3]
 #                        [4 5 6]] => HERE WE CHANGED THAT 1D NUMPY ARRAY INTO 2D ARRAY BY GIVING (2,3) BEACUSE IT WAS 6 ELEMENTS WE CAN MAKE 3 ROWS AND 3 COLUMNS AND ALSO 2 ROWS AND 3 COLUMNS IF WE TRY TO MAKE ANYTHING INSRAED OF THIS WE WILL GOT AN ERROR
+
+
+
+# ndim is used to find how many dimensions an array has
+
+
+#shape is used to find the how many rows and columns in that particular array 
+#eg:
+#import numpy as np
+#a=np.array([[1,2,3],[4,5,6]])
+#print(a.shape) # => (2, 3)
+#NOTE: IF IT WAS ONLY ONE DIMESIONAL ARRAY THEN IT WILL PRINT ONLY ONE VALUE LIKE (6,) => 6 IS THE SIZE OF THAT PARTICULAR ARRAY
+
+#size is used to find the total number of elements in that particular array
+#print(a.size) # => 6
